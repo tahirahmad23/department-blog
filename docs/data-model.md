@@ -76,6 +76,9 @@ A message sent through the contact form.
 
 ## Relationships
 
+
+![Relationship diagram](relationship.jpeg)
+
 ```
 ┌──────────────┐       ┌──────────────┐
 │   Category   │       │     User     │
@@ -127,3 +130,4 @@ A message sent through the contact form.
 - A **Post** belongs to one **Category**
 - A **Post** belongs to one **User** (author)
 - **Staff** and **ContactMessage** are independent tables
+
